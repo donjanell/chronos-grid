@@ -1,0 +1,9 @@
+apiVersion: batch.chronos.io/v1alpha1
+kind: ComputeJob
+metadata:
+  labels:
+    app.kubernetes.io/name: chronos-grid
+    app.kubernetes.io/managed-by: kustomize
+  name: computejob-sample
+spec:
+  # TODO(user): Add fields here
